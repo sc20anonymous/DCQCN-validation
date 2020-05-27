@@ -9,8 +9,8 @@ ns3, using code released by the author of DCQCN.
 DCQCN parameters:
 Parameter|Value
 |--|:--:|
-|Kmin|10KB|
-|Kmax|100KB|
+|Kmin|5KB|
+|Kmax|80KB|
 |Pmax|0.01|
 |Timer|50us|
 |Byte Counter|10MB|
