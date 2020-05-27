@@ -5,4 +5,11 @@ The same as Fig.1 in the paper:
 
 ## Simulator 
 ns3, using code released by the author of DCQCN
+DCQCN parameters
+Parameter|Value
+|--|:--:|
+|K_{min}|10KB|
+|K_{max}|100KB|
+|CNP interval|50us|
+
 ## Results
