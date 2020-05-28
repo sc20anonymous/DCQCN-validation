@@ -17,3 +17,5 @@ Parameter|Value
 |g|1/256|
 
 ## Results
+
+<div align="center"><img width="400" height="200" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_overall_throughput.png"/></div>
