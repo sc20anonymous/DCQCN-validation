@@ -17,5 +17,5 @@ Parameter|Value
 |g|1/256|
 
 ## Results
-
+### Overall throughput of F1 and F2
 <div align="center"><img width="400" height="300" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_overall_throughput.png"/></div>
