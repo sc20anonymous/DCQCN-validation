@@ -4,7 +4,7 @@ The same as Fig.1 in the paper. H1 and H2 send large messages with a size of 20M
 <div align="center"><img width="400" height="200" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/topology.png"/></div>
 
 ## Simulator 
-ns3, using code released by the author of DCQCN.
+ns3, code released by the author of DCQCN.
 
 DCQCN parameters:
 Parameter|Value
@@ -24,5 +24,5 @@ Parameter|Value
 
 ### Sending rate of F1. 
 
-CC rate refers to the sending rate regulated by DCQCN. Real rate refers to final sending rate regulated by both PFC and DCQCN. After launching of burst at 3ms, F1 CC rate is improperly reduced to about 9Gbps. Ideally, F1 should not decrease rate. 
+CC rate refers to the sending rate regulated by DCQCN. Real rate refers to final sending rate regulated by both PFC and DCQCN. After 3ms (burst launching), CC rate of F1 is improperly reduced to about 9Gbps. Ideally, F1 should not decrease rate since it does not contribute to the congestion at port P0. The improper rate adjustment of DCQCN is due to incorrect congestion detection at port P2.
 <div align="center"><img width="400" height="280" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_cc_rate.png"/></div>
