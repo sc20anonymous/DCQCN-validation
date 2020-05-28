@@ -10,7 +10,7 @@ DCQCN parameters:
 Parameter|Value
 |--|:--:|
 |Kmin|5KB|
-|Kmax|80KB|
+|Kmax|100KB|
 |Pmax|0.01|
 |Timer|50us|
 |Byte Counter|10MB|
