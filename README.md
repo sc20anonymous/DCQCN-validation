@@ -19,7 +19,7 @@ Parameter|Value
 ## Results
 ### Overall throughput of F1 and F2. 
 
-The under-utilization time of link P2-P1: 16ms.
+The under-utilization time of link P2-P1 is 16ms.
 <div align="center"><img width="400" height="280" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_overall_throughput.png"/></div>
 
 ### Sending rate of F1. 
