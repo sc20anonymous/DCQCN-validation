@@ -17,8 +17,12 @@ Parameter|Value
 |g|1/256|
 
 ## Results
-### Overall throughput of F1 and F2. 16ms is the under-utilization time of link P2-P1.
-<div align="center"><img width="400" height="300" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_overall_throughput.png"/></div>
+### Overall throughput of F1 and F2. 
 
-### Sending rate of F1. CC rate refers to the sending rate regulated by DCQCN. Real rate refers to final sending rate regulated by both PFC and DCQCN. F1 CC rate is improperly reduced. 
-<div align="center"><img width="400" height="300" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_cc_rate.png"/></div>
+16ms is the under-utilization time of link P2-P1.
+<div align="center"><img width="400" height="280" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_overall_throughput.png"/></div>
+
+### Sending rate of F1. 
+
+CC rate refers to the sending rate regulated by DCQCN. Real rate refers to final sending rate regulated by both PFC and DCQCN. After launching of burst at 3ms, F1 CC rate is improperly reduced to about 9Gbps. Ideally, F1 should not decrease rate. 
+<div align="center"><img width="400" height="280" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_cc_rate.png"/></div>
