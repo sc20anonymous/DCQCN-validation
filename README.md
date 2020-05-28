@@ -25,6 +25,6 @@ The under-utilization time of link P2-P1: 16ms.
 ### Sending rate of F1. 
 
 CC rate refers to the sending rate regulated by DCQCN. Real rate refers to final sending rate regulated by both PFC and DCQCN.
-- PFC confuses congestion detection: CC rate of F1 is improperly reduced to about 9Gbps.
+- Improper congestion detection at port P2: CC rate of F1 is improperly reduced to about 9Gbps.
 - The sluggish rate adjustment of end-to-end CC mismatches the fast hop-by-hop PFC: PFC dominates sending rate for about 1.2ms after burst launching at 3ms.
 <div align="center"><img width="400" height="280" src="https://github.com/sc20anonymous/DCQCN-validation/raw/master/dcqcn_cc_rate.png"/></div>
